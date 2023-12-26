@@ -1,0 +1,80 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.example:my-java-angular-app-be >-----------------
+[INFO] Building my-java-angular-app-be 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- frontend:1.0:install-node-and-npm (install node and npm) @ my-java-angular-app-be ---
+[INFO] Node v16.20.1 is already installed.
+[INFO] NPM 8.19.4 is already installed.
+[INFO] 
+[INFO] --- frontend:1.0:npm (npm install) @ my-java-angular-app-be ---
+[INFO] Running 'npm install' in /home/andriy/Documents/playground/my-java-angular-app/frontend/my-angular-app
+[INFO] 
+[INFO] up to date, audited 952 packages in 2s
+[INFO] 
+[INFO] 113 packages are looking for funding
+[INFO]   run `npm fund` for details
+[INFO] 
+[INFO] found 0 vulnerabilities
+[INFO] 
+[INFO] --- frontend:1.0:npm (npm build) @ my-java-angular-app-be ---
+[INFO] Running 'npm run build' in /home/andriy/Documents/playground/my-java-angular-app/frontend/my-angular-app
+[INFO] 
+[INFO] > my-angular-app@0.0.0 build
+[INFO] > ng build
+[INFO] 
+[ERROR] - Generating browser application bundles (phase: setup)...
+[ERROR] ✔ Browser application bundle generation complete.
+[ERROR] ✔ Browser application bundle generation complete.
+[ERROR] - Copying assets...
+[ERROR] ✔ Copying assets complete.
+[ERROR] - Generating index html...
+[ERROR] ✔ Index html generation complete.
+[INFO] 
+[INFO] Initial Chunk Files           | Names         |  Raw Size | Estimated Transfer Size
+[INFO] main.e6df2ceabd205104.js      | main          |  96.64 kB |                29.09 kB
+[INFO] polyfills.d9c2d27bb24122e9.js | polyfills     |  33.04 kB |                10.67 kB
+[INFO] runtime.e924d9a47904ada6.js   | runtime       | 906 bytes |               515 bytes
+[INFO] styles.ef46db3751d8e999.css   | styles        |   0 bytes |                       -
+[INFO] 
+[INFO] | Initial Total | 130.56 kB |                40.26 kB
+[INFO] 
+[INFO] Build at: 2023-12-26T16:05:13.694Z - Hash: edb5aae9328c82e6 - Time: 4335ms
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ my-java-angular-app-be ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/andriy/Documents/playground/my-java-angular-app/backend/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ my-java-angular-app-be ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ my-java-angular-app-be ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/andriy/Documents/playground/my-java-angular-app/backend/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ my-java-angular-app-be ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- surefire:3.2.2:test (default-test) @ my-java-angular-app-be ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit.JUnit3Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s -- in com.example.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ my-java-angular-app-be ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.237 s
+[INFO] Finished at: 2023-12-26T18:05:15+02:00
+[INFO] ------------------------------------------------------------------------
