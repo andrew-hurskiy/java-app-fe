@@ -83,14 +83,9 @@
             <configuration>
                 <tagNameFormat>@{project.version}</tagNameFormat>
                 <autoVersionSubmodules>true</autoVersionSubmodules>
-                <releaseProfiles>
-                    <my-profile>
-                        <id>build_ui</id>
-                    </my-profile>
-                </releaseProfiles>
+                <releaseProfiles>build_ui</releaseProfiles>
             </configuration>
         </plugin>
-        <!-- Other build plugins, if any -->
     </plugins>
 </build>
 
