@@ -4,7 +4,7 @@
   <artifactId>my-java-angular-app-be</artifactId>
   <packaging>jar</packaging>
   <groupId>com.example</groupId>
-  <version>1.2-SNAPSHOT</version>
+  <version>1.2</version>
   <name>my-java-angular-app-be</name>
   <dependencies>
     <dependency>
@@ -104,7 +104,7 @@
     <connection>scm:git:https://github.com/andrew-hurskiy/java-app-fe.git</connection>
     <developerConnection>scm:git:https://github.com/andrew-hurskiy/java-app-fe.git</developerConnection>
     <url>https://github.com/andrew-hurskiy/java-app-fe</url>
-  <tag>HEAD</tag>
+  <tag>1.2</tag>
   </scm>
 
 
